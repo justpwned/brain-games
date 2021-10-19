@@ -20,14 +20,14 @@ def game_won(name):
 
 def game_lost(name, wrong_answer, correct_answer):
     print(f'"{wrong_answer}" is wrong answer ;(. '
-          f'Correct answer was "{correct_answer}"')
+          f'Correct answer was "{correct_answer}".')
     print(f'Let\'s try again, {name}!')
 
 
 def play_round(name, answer, correct_answer, correct_guesses):
     if answer == correct_answer:
         correct_guesses += 1
-        print('Correct')
+        print('Correct!')
         if correct_guesses == 3:
             game_won(name)
             return False, correct_guesses

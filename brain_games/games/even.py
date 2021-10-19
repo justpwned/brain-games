@@ -18,8 +18,8 @@ def start():
     correct_guesses = 0
     running = True
     while running:
-        number = randint(0, 100)
-        answer = ask_question(number)
-        correct_answer = get_correct_answer(number)
+        guessed_number = randint(0, 100)
+        answer = ask_question(guessed_number)
+        correct_answer = get_correct_answer(guessed_number)
         running, correct_guesses = play_round(
             name, answer, correct_answer, correct_guesses)
