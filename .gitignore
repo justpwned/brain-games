@@ -1,6 +1,5 @@
 .idea
 __pycache__
 dist
-typescript
 .venv
 *.swp
