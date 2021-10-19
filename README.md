@@ -4,4 +4,4 @@
 [![CI](https://github.com/justpwned/python-project-lvl1/actions/workflows/ci.yml/badge.svg)](https://github.com/justpwned/python-project-lvl1/actions/workflows/ci.yml)
 
 ## brain-even
-[![asciicast](https://asciinema.org/a/Q2Dnf0x3Aj39sxwQdW5fHvvQw.png)](https://asciinema.org/a/Q2Dnf0x3Aj39sxwQdW5fHvvQw)
+[![asciicast](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm.png)](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm)
