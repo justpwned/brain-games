@@ -4,10 +4,10 @@ install:
 build:
 	poetry build
 
-publish:
+publish: build
 	poetry publish --dry-run
 
-package-install:
+package-install: build
 	python3 -m pip install --user dist/*.whl --force-reinstall
 
 lint:
