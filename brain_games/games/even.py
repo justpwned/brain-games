@@ -1,10 +1,9 @@
-from brain_games.games.utils import ask_question, play_round, welcome_user
+from brain_games.games.common import ask_question, play_round, welcome_user
 import random
 
 
 def get_correct_answer(number):
-    correct_answer = 'yes' if number % 2 == 0 else 'no'
-    return correct_answer
+    return 'yes' if number % 2 == 0 else 'no'
 
 
 def start():

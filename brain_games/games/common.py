@@ -4,8 +4,7 @@ import brain_games.cli
 
 def ask_question(question):
     print(f'Question: {question}')
-    answer = prompt.string('Your answer: ')
-    return answer
+    return prompt.string('Your answer: ')
 
 
 def welcome_user(game_rules):

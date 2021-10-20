@@ -1,4 +1,4 @@
-from brain_games.games.utils import ask_question, play_round, welcome_user
+from brain_games.games.common import ask_question, play_round, welcome_user
 import random
 import math
 

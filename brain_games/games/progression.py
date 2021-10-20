@@ -1,4 +1,4 @@
-from brain_games.games.utils import ask_question, play_round, welcome_user
+from brain_games.games.common import ask_question, play_round, welcome_user
 import random
 
 
@@ -7,23 +7,20 @@ def get_correct_answer(progression, missing_pos):
 
 
 def generate_expr(progression, missing_pos):
-    expr = ''
-    for i in range(len(progression)):
-        if i == missing_pos:
-            expr += '.. '
-        else:
-            expr += str(progression[i]) + ' '
-    return expr
+    return ''.join(
+        '.. ' if i == missing_pos else f'{progression[i]} '
+        for i in range(len(progression))
+    )
 
 
 def start():
     name = welcome_user('What number is missing in the progression?')
     correct_guesses = 0
     running = True
+    length = 10
     while running:
         n1 = random.randint(0, 100)
         step = random.randint(1, 10)
-        length = 10
         progression = [i for i in range(n1, n1 + step * length, step)]
         missing_pos = random.randint(0, length - 1)
         expr = generate_expr(progression, missing_pos)
