@@ -2,11 +2,9 @@
 
 [![CI](https://github.com/justpwned/python-project-lvl1/actions/workflows/ci.yml/badge.svg)](https://github.com/justpwned/python-project-lvl1/actions/workflows/ci.yml)
 
-Brain-games is a package that includes 5 simple CLI games written in Python. The goal of this project was to get acquainted with the process of installing, building and publishing packages in Python using tools such as [Pip](https://pip.pypa.io/en/stable/), [Poetry](https://python-poetry.org/) and [Make](https://www.gnu.org/software/make/). As well as automating the process of linting everytime it is pushed to main branch using [Flake8](https://flake8.pycqa.org/en/latest/) (as a linter) and [Github Actions](https://github.com/features/actions) (as a CI utility).
+Brain-games is a package that includes 5 simple CLI games written in Python. The goal of this project was to get acquainted with the process of installing, building and publishing packages in Python using tools such as [Pip](https://pip.pypa.io/en/stable/), [Poetry](https://python-poetry.org/) and [Make](https://www.gnu.org/software/make/). As well as automating the process of linting everytime code is pushed to repository using [Flake8](https://flake8.pycqa.org/en/latest/)(as a linter) and [Github Actions](https://github.com/features/actions)(as a CI utility).
 
 ## Installation
-
----
 
 ```bash
 # Install Poetry
@@ -21,7 +19,7 @@ make package-install
 
 After successful installation you should have the following packages available as scripts in your command prompt:
 
-- brain-even
+- [brain-even](#brain-even)
 - brain-calc
 - brain-gcd
 - brain-progression
@@ -29,11 +27,8 @@ After successful installation you should have the following packages available a
 
 ## Demo
 
----
-
 ### brain-even
-
-[![asciicast](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm.png)](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm)
+![brain-even](https://user-images.githubusercontent.com/22057086/138188271-16d02305-b913-4431-bfb3-0ad5088a5d74.gif)
 
 ### brain-calc
 
