@@ -19,30 +19,8 @@ make package-install
 
 After successful installation you should have the following packages available as scripts in your command prompt:
 
-- [brain-even](#brain-even)
-- [brain-calc](#brain-calc)
-- [brain-gcd](#brain-gcd)
-- [brain-progression](#brain-progression)
-- [brain-prime](#brain-prime)
-
-## Demo
-
-### brain-even
-
-[![asciicast](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm.png)](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm)
-
-### brain-calc
-
-[![asciicast](https://asciinema.org/a/DvaF7asVXi0IrPxMgpR6auzoY.png)](https://asciinema.org/a/DvaF7asVXi0IrPxMgpR6auzoY)
-
-### brain-gcd
-
-[![asciicast](https://asciinema.org/a/VYPUb2vopzeaXByIoUFJLsh1X.png)](https://asciinema.org/a/VYPUb2vopzeaXByIoUFJLsh1X)
-
-### brain-progression
-
-[![asciicast](https://asciinema.org/a/utA9w9CEUNBfpO4D2ozZAHXCB.png)](https://asciinema.org/a/utA9w9CEUNBfpO4D2ozZAHXCB)
-
-### brain-prime
-
-[![asciicast](https://asciinema.org/a/gSH74Uxhfion698WnSRj22YNX.png)](https://asciinema.org/a/gSH74Uxhfion698WnSRj22YNX)
+- brain-even ([demo](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm))
+- brain-calc ([demo](https://asciinema.org/a/DvaF7asVXi0IrPxMgpR6auzoY))
+- brain-gcd ([demo](https://asciinema.org/a/VYPUb2vopzeaXByIoUFJLsh1X))
+- brain-progression ([demo](https://asciinema.org/a/utA9w9CEUNBfpO4D2ozZAHXCB))
+- brain-prime ([demo](https://asciinema.org/a/gSH74Uxhfion698WnSRj22YNX))
