@@ -20,15 +20,16 @@ make package-install
 After successful installation you should have the following packages available as scripts in your command prompt:
 
 - [brain-even](#brain-even)
-- brain-calc
-- brain-gcd
-- brain-progression
-- brain-prime
+- [brain-calc](#brain-calc)
+- [brain-gcd](#brain-gcd)
+- [brain-progression](#brain-progression)
+- [brain-prime](#brain-prime)
 
 ## Demo
 
 ### brain-even
-![brain-even](https://user-images.githubusercontent.com/22057086/138188271-16d02305-b913-4431-bfb3-0ad5088a5d74.gif)
+
+[![asciicast](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm.png)](https://asciinema.org/a/KtHWVuOJWApI3N3a5dyCw5uCm)
 
 ### brain-calc
 
